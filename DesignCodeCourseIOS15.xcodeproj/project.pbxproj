@@ -18,6 +18,10 @@
 		0D92E06127F7827D0099ACBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E06027F7827D0099ACBC /* ContentView.swift */; };
 		0D92E06327F7827E0099ACBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D92E06227F7827E0099ACBC /* Assets.xcassets */; };
 		0D92E06627F7827E0099ACBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D92E06527F7827E0099ACBC /* Preview Assets.xcassets */; };
+		0DA919352806A4950049F8DF /* FeatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919342806A4950049F8DF /* FeatureItem.swift */; };
+		0DA919372806A5BB0049F8DF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919362806A5BA0049F8DF /* NavigationBar.swift */; };
+		0DA919392806ABB70049F8DF /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919382806ABB70049F8DF /* PreferenceKeys.swift */; };
+		0DA9193B2806AF3B0049F8DF /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		0D92E06027F7827D0099ACBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D92E06227F7827E0099ACBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D92E06527F7827E0099ACBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DA919342806A4950049F8DF /* FeatureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItem.swift; sourceTree = "<group>"; };
+		0DA919362806A5BA0049F8DF /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		0DA919382806ABB70049F8DF /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			children = (
 				0D7542DB27FF058900F701AD /* TabBar.swift */,
 				0D92E06027F7827D0099ACBC /* ContentView.swift */,
+				0DA919362806A5BA0049F8DF /* NavigationBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -69,6 +78,7 @@
 			children = (
 				0D41133527FCC88300822EA9 /* BlobView.swift */,
 				0D41133327FCC42300822EA9 /* HexagonView.swift */,
+				0DA919342806A4950049F8DF /* FeatureItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -77,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0D7542DD27FF0A7300F701AD /* Tab.swift */,
+				0DA919382806ABB70049F8DF /* PreferenceKeys.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				0D1D282927FB6CF400BCAC89 /* Styles.swift */,
+				0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -201,12 +213,16 @@
 				0D7542E027FF2F6700F701AD /* HomeView.swift in Sources */,
 				0D1D282C27FB728700BCAC89 /* AccountView.swift in Sources */,
 				0D41133427FCC42300822EA9 /* HexagonView.swift in Sources */,
+				0DA919352806A4950049F8DF /* FeatureItem.swift in Sources */,
 				0D1D282A27FB6CF400BCAC89 /* Styles.swift in Sources */,
+				0DA919372806A5BB0049F8DF /* NavigationBar.swift in Sources */,
 				0D7542DE27FF0A7300F701AD /* Tab.swift in Sources */,
 				0D41133627FCC88300822EA9 /* BlobView.swift in Sources */,
 				0D92E06127F7827D0099ACBC /* ContentView.swift in Sources */,
 				0D92E05F27F7827D0099ACBC /* DesignCodeCourseIOS15App.swift in Sources */,
+				0DA919392806ABB70049F8DF /* PreferenceKeys.swift in Sources */,
 				0D7542DC27FF058900F701AD /* TabBar.swift in Sources */,
+				0DA9193B2806AF3B0049F8DF /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
