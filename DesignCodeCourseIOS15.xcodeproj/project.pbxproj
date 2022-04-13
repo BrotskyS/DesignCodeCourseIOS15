@@ -22,6 +22,11 @@
 		0DA919372806A5BB0049F8DF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919362806A5BA0049F8DF /* NavigationBar.swift */; };
 		0DA919392806ABB70049F8DF /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919382806ABB70049F8DF /* PreferenceKeys.swift */; };
 		0DA9193B2806AF3B0049F8DF /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */; };
+		0DA9193D2806ECA60049F8DF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9193C2806ECA60049F8DF /* Course.swift */; };
+		0DA9193F2806F2800049F8DF /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9193E2806F2800049F8DF /* MatchView.swift */; };
+		0DA919412806FAC60049F8DF /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919402806FAC60049F8DF /* CourseItem.swift */; };
+		0DA919432806FBC10049F8DF /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA919422806FBC10049F8DF /* CourseView.swift */; };
+		0DA91945280700CD0049F8DF /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA91944280700CD0049F8DF /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		0DA919362806A5BA0049F8DF /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		0DA919382806ABB70049F8DF /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		0DA9193C2806ECA60049F8DF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		0DA9193E2806F2800049F8DF /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		0DA919402806FAC60049F8DF /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		0DA919422806FBC10049F8DF /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		0DA91944280700CD0049F8DF /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,8 @@
 			children = (
 				0D7542DF27FF2F6700F701AD /* HomeView.swift */,
 				0D1D282B27FB728700BCAC89 /* AccountView.swift */,
+				0DA9193E2806F2800049F8DF /* MatchView.swift */,
+				0DA919422806FBC10049F8DF /* CourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -79,6 +91,7 @@
 				0D41133527FCC88300822EA9 /* BlobView.swift */,
 				0D41133327FCC42300822EA9 /* HexagonView.swift */,
 				0DA919342806A4950049F8DF /* FeatureItem.swift */,
+				0DA919402806FAC60049F8DF /* CourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -88,6 +101,7 @@
 			children = (
 				0D7542DD27FF0A7300F701AD /* Tab.swift */,
 				0DA919382806ABB70049F8DF /* PreferenceKeys.swift */,
+				0DA9193C2806ECA60049F8DF /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +111,7 @@
 			children = (
 				0D1D282927FB6CF400BCAC89 /* Styles.swift */,
 				0DA9193A2806AF3B0049F8DF /* AnimatableFontModifier.swift */,
+				0DA91944280700CD0049F8DF /* Animations.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -211,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7542E027FF2F6700F701AD /* HomeView.swift in Sources */,
+				0DA9193F2806F2800049F8DF /* MatchView.swift in Sources */,
+				0DA919432806FBC10049F8DF /* CourseView.swift in Sources */,
 				0D1D282C27FB728700BCAC89 /* AccountView.swift in Sources */,
 				0D41133427FCC42300822EA9 /* HexagonView.swift in Sources */,
 				0DA919352806A4950049F8DF /* FeatureItem.swift in Sources */,
@@ -218,8 +235,11 @@
 				0DA919372806A5BB0049F8DF /* NavigationBar.swift in Sources */,
 				0D7542DE27FF0A7300F701AD /* Tab.swift in Sources */,
 				0D41133627FCC88300822EA9 /* BlobView.swift in Sources */,
+				0DA9193D2806ECA60049F8DF /* Course.swift in Sources */,
 				0D92E06127F7827D0099ACBC /* ContentView.swift in Sources */,
+				0DA919412806FAC60049F8DF /* CourseItem.swift in Sources */,
 				0D92E05F27F7827D0099ACBC /* DesignCodeCourseIOS15App.swift in Sources */,
+				0DA91945280700CD0049F8DF /* Animations.swift in Sources */,
 				0DA919392806ABB70049F8DF /* PreferenceKeys.swift in Sources */,
 				0D7542DC27FF058900F701AD /* TabBar.swift in Sources */,
 				0DA9193B2806AF3B0049F8DF /* AnimatableFontModifier.swift in Sources */,
