@@ -10,6 +10,7 @@ import SwiftUI
 struct AccountView: View {
     @State var isDeleted = false
     @State var isPin = true
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         NavigationView {
             List {
@@ -19,6 +20,9 @@ struct AccountView: View {
             }
             .listStyle(.automatic)
             .navigationTitle("Account")
+            .navigationBarItems(trailing: Button{presentationMode.wrappedValue.dismiss()}label: {
+                Text("Done").bold()
+            })
         }
     }
     
